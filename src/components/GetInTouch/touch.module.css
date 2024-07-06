@@ -1,0 +1,53 @@
+.touch{
+    height: 250px;
+    width: 70%;
+    margin: 30px auto;
+    background-color: #1A73E8;
+    border-radius: 12px;
+    background-image: url("/public/images/getintouchbgimg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgandpara{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgandpara img{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.paras p{
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.para1{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.para2{
+    font-size: 14px;
+    color: #F5F5F5;
+    text-align: justify;
+}
+
+.touch button{
+    color: #1A73E8;
+    background-color: #EEF5FF;
+    font-size: 12px;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

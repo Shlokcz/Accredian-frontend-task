@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img img{
+    cursor: pointer;
+}
+
+.courseBtn{
+    display: flex;
+    background-color: #1A73E8;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.courseBtn button{
+    border: none;
+    color: white;
+    background-color: #1A73E8;
+    cursor: pointer;
+}
+
+.courseBtn img{
+    height: 18px;
+    width: 15px;
+}
+
+.link{
+    color: black;
+}
+
+.navbarItems ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbarItems ul li{
+    font-size: 14px;
+    list-style: none;
+}
+
+.navbarItems ul button{
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+.loginBtn{
+    color: black;
+    background-color: #dee3eb;
+    border: none;
+}
+
+.tryforfreeBtn{
+    color: white;
+    background-color: #1A73E8;
+    border: none;
+}

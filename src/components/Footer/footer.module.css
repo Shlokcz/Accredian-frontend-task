@@ -1,0 +1,86 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    color: white;
+    gap: 30px;
+}
+
+.footerheading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.logoImg img{
+    cursor: pointer;
+}
+
+.callNow button{
+    font-size: 12px;
+    padding: 10px 36px;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    background-color: #1A73E8;
+    cursor: pointer;
+}
+
+.callNow p{
+    font-size: 12px;
+}
+
+.actualContent{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.programs p{
+    font-size: 14px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h3{
+    font-size: 12px;
+}
+
+.contact p{
+    line-height: 0.5;
+    font-size: 12px;
+}
+
+.footerImgs{
+    display: flex;
+    gap: 10px;
+    /* flex-direction: column; */
+} 
+
+.footerImgs img{
+    cursor: pointer;
+}
+
+.actualContent p{
+    text-align: justify;
+}
+
+.accredian h3, p{
+    cursor: pointer;
+}
+
+.accredian p{
+    font-size: 12px;
+}
+
+.accredian p{
+    text-align: justify;
+    line-height: 0.5;
+}
+
+.copyrightLine p{
+    margin-bottom: 20px;
+}

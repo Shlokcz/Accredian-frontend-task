@@ -1,0 +1,48 @@
+.refer{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEF5FF;
+    margin-top: 50px;
+}
+
+.referText p{
+    font-weight: 500;
+}
+
+.referText span{
+    color: #1A73E8;
+    cursor: pointer;
+}
+
+.referImg{
+    background-image: url("/public/images/referimg.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.referImg img{
+    cursor: pointer;
+}
+
+.referBtn button{
+    font-size: 12px;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #1A73E8;
+    cursor: pointer;
+}
+
+.addfriendImg img{
+    margin-right: 20px;
+}
+
+.listImg img{
+    margin-right: 30px;
+}

@@ -1,0 +1,50 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.form h1{
+    color: #1A73E8;
+    font-size: 40px;
+}
+
+.currForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.namefield{
+    display: flex;
+    align-items: center;
+}
+
+.namefield label, .emailfield label, .referralfield label, .coursefield label{
+    font-size: 20px;
+    color: #1A73E8;
+}
+
+.namefield input, .emailfield input, .referralfield input, .coursefield textarea{
+    padding: 10px;   
+    border: none;
+    border-radius: 6px;
+}
+
+.currForm button{
+    font-size: 12px;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #1A73E8;
+    cursor: pointer;
+}

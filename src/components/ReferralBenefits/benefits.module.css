@@ -1,0 +1,68 @@
+.benefits{
+    margin-top: 50px;
+}
+
+.benefits span{
+    color: #1A73E8;
+}
+
+.tables{
+    display: flex;
+    margin: 50px auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 40%;
+    gap: 30px;
+}
+
+.table1{
+    width: 40%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.table1 thead tr th{
+    color: white;
+    background-color: #1A73E8;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.table2 {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+
+.table2 thead tr th{
+    color: #1350A0;
+    background-color: #AFCEF7;
+    /* border-radius: 10px 0px 0px 0px ; */
+}
+  
+.table2 th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+.table2 th {
+    background-color: #f2f2f2;
+}
+
+.benefitsBtn{
+    margin-bottom: 20px;
+}
+
+.benefitsBtn button{
+    font-size: 12px;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #1A73E8;
+    cursor: pointer;
+}  

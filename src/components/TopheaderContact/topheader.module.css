@@ -1,0 +1,17 @@
+.topheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEF5FF;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.topheader button{
+    border: transparent;
+    color: #1A73E8;
+    background-color: #EEF5FF;
+    cursor: pointer;
+    padding-top: 4px;
+    font-size: 10px;
+}
