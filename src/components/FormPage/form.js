@@ -24,7 +24,7 @@ const FormPage = () => {
     e.preventDefault();
     try {
       console.log(formData);
-      const response = await axios.post('http://localhost:5000/referrals', formData);
+      const response = await axios.post('https://accredian-backend-task-rx9h.onrender.com/referrals', formData);
       console.log(response);
       setResponseMessage('Form submitted successfully!');
     } catch (error) {
